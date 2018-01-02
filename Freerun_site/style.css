@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*achtergrond foto */
+html {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/f5/cf/c9/f5cfc9d6f6b8456d491dff2029ab492c.jpg');
+  background-size: cover;
+}
+/*achtergrond kleur */
+body {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+/* tekst in het midden krijgen */
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+  /*achtergrond kleur van de text + transparantie */
+  background-color: rgba(41, 200, 253, 0.6);
+}
+
+header {
+padding: .9em 0%;
+background-color: rgba(0, 136, 204, 0.5);
+color: rgb(0, 0, 204);
+}
+
+h1 {
+  margin: 0;
+padding: .0em 1%;
+}
+
+/* elementen naast elkaar zetten */
+.rij {
+  overflow: auto;
+}
+
+.rij>div {
+  float: left;
+  padding: 0 2%;
+  box-sizing: border-box;
+  border-left: dotted 3px #1a1aff
+}
+
+.rij>div:first-child {
+  border-left: 0;
+}
+.half {
+  width: 50%;
+}
+
+.derde {
+  width: 33.33%;
+}
+
+.kwart {
+  width: 25%;
+}
+
+#apart {
+background-color: #47a;
+color: #fff;
+padding: 15px;
+width: 200px;
+border-radius: 100px;
+box-sizing: content-box;
+text-align: center;
+transform: rotate(10deg);
+}
+
+/*stap 9, 2 min*/
